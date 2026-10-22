@@ -1,3 +1,8 @@
+/*
+    Este módulo usa o plugin com.android.test e aponta para:app.
+    Ele mede Slow Startup e UI Jank no sistema real:
+ */
+
 plugins {
     alias(libs.plugins.android.test)
     // AGP 9.0+ tem suporte a Kotlin embutido; o plugin kotlin.android não deve ser aplicado.
