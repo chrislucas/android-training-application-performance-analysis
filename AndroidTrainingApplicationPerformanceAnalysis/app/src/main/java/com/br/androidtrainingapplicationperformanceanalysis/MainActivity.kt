@@ -14,7 +14,21 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.br.androidtrainingapplicationperformanceanalysis.ui.theme.AndroidTrainingApplicationPerformanceAnalysisTheme
 
 /*
-    Documentacao sobre Pr
+    Fonte do projeto
+    https://gemini.google.com/app/df4358c6971dfef3
+
+    construir um projeto onde eu possa praticar essas analises de troubleshoot.
+    A ideia é construir algo que tenha uma serie de problemas de performance,
+    como animacoes, chamadas ao banco, uso excessivo de bateria e memoria e ir corrigindo ponto
+     a ponto para aprender a mexer com as ferramentas de profile da IDE.
+     Quero incluir nesse projeto o uso de micro e macro benchmark
+
+    https://developer.android.com/topic/performance/benchmarking/macrobenchmark-overview
+    https://developer.android.com/topic/performance/benchmarking/microbenchmark-overview
+
+    Profile your app performance
+    https://developer.android.com/studio/profile
+
  */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
