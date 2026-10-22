@@ -8,4 +8,7 @@ plugins {
     alias(libs.plugins.ksp) apply false
     alias(libs.plugins.androidx.benchmark) apply false
     alias(libs.plugins.androidx.baselineprofile) apply false
+
+    // Plugin local (build-logic) que registra tasks atalho: microBench, macroBench, allBench.
+    id("com.br.benchmark.shortcuts")
 }

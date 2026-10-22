@@ -49,6 +49,15 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+
+    /*
+    kotlinOptions { jvmTarget = "17" } é equivalente a kotlinOptions { jvmTarget = "17" } ?
+    Sim
+ */
+    // https://developer.android.com/kotlin/multiplatform/plugin#configure-jvm-target
+    kotlin {
+        jvmToolchain(17)
+    }
 }
 
 androidComponents {
